@@ -6,7 +6,7 @@ Order matters: purchases complete → inventory posted → COGS → tie-out to Q
 2. **All bills extracted.** Extract Monitor all green. Run **On-Demand Extract** for stragglers.
 3. **All sales days posted.** Sync Monitor: no red days in the month.
 4. **Final inventory count** dated the **last day of the accounting period**, then **Inventory by COGS > Post to Sync Monitor**. `kb/reporting/inventory-reports.md`, `kb/cogs/`
-5. **COGS report** and **Actual vs Theoretical** (needs two counts; theoretical arrives 2–3 business days after end date). `kb/reporting/cogs-report.md`, `kb/reporting/actual-vs-theoretical.md`
+5. **COGS report** and **Actual vs Theoretical** (needs two counts; theoretical arrives 2–3 business days after end date). `kb/cogs/cogs-report.md`, `kb/reporting/actual-vs-theoretical.md`
 6. **Tie-out to QuickBooks**:
    - **Invoice summary by GL** (xtraCHEF) vs QBO bills by vendor/GL for the same dates.
    - **Spending by GL** vs QBO P&L expense lines.

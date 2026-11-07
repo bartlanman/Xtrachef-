@@ -12,6 +12,10 @@ The help center documents no customer-facing xtraCHEF API, so automation runs th
 | Mobile notifications / mobile approval | Approvals from the phone | `kb/invoicing/mobile-*.md` |
 | Price tracker Close Watch | Watches key items' prices | `kb/reporting/price-tracker.md` |
 | Instant Upload | Single-page immediate processing | Ask support@xtrachef.com |
+| EDI (PFG, Sysco via dashboard tile; beverage distributors via Fintech) | Invoices arrive electronically — no uploads at all | Fintech needs matching Secondary Vendor ID. `kb/vendors/edi-integration-with-vendors.md` |
+| Scheduled order guides (Order > Order Guides > Schedule, Auto Submission) | Standing orders send themselves | Vendor needs a sales rep contact. `kb/orders/order-guides.md` |
+| Bid-sheet import into order guides (.csv/.xls/.xlsx) | Loads vendor price lists for comparison | `kb/orders/order-guides.md` |
+| Import GL codes and payment terms from QBO | Keeps xtraCHEF in step with QuickBooks | Re-import after adding QBO accounts. `kb/gl-and-journal-entries/gl-codes.md` |
 
 ## Agent routines (scheduled tasks)
 | Routine | Cadence | How |
