@@ -2,7 +2,7 @@
 
 One note per official xtraCHEF help-center article, written in our own words.
 Regenerate with `python3 tools/build_index.py`.
-**112 notes.** Playbooks: [`../playbooks/`](../playbooks/).
+**126 notes.** Playbooks: [`../playbooks/`](../playbooks/).
 
 
 ## Getting started & onboarding
@@ -63,9 +63,12 @@ Regenerate with `python3 tools/build_index.py`.
 
 | Note | Summary | Source |
 |---|---|---|
+| [Add Additional Vendors to Your Fintech EDI](vendors/add-vendors-to-fintech-edi.md) | Once your Fintech EDI link with xtraCHEF is live, **you** add each new distributor yourself. | [link](https://intercom.help/toast-central/en/articles/10533397-add-additional-vendors-to-your-fintech-edi) |
 | [xtraCHEF: Set Up an EDI Integration With Vendors](vendors/edi-integration-with-vendors.md) | EDI (Electronic Data Interchange) lets a vendor send invoice data straight into xtraCHEF, with no photos, PDFs or uploads, and fewer keying errors. | [link](https://intercom.help/toast-central/en/articles/9306947-xtrachef-set-up-an-edi-integration-with-vendors) |
 | [xtraCHEF: Get Started With Vendors](vendors/get-started-with-vendors.md) | The **Vendors** page (the **Vendor Hub**) is where you manage every vendor xtraCHEF knows about, whether synced from QBO or read from uploaded documents. | [link](https://intercom.help/toast-central/en/articles/14727525-xtrachef-get-started-with-vendors) |
+| [Manage Vendors in Bill Pay](vendors/manage-vendors-in-toast-web-bill-pay.md) | Vendor management for **Toast Web Bill Pay** (part of Toast Checking). | [link](https://intercom.help/toast-central/en/articles/15606317-manage-vendors-in-bill-pay) |
 | [xtraCHEF: Pay Vendor Bills With Toast Bill Pay](vendors/pay-vendor-bills-with-toast-bill-pay.md) | This is the how-to for the xtraCHEF Bill Pay module: the dashboard, bills, payment statuses and the bills report. | [link](https://intercom.help/toast-central/en/articles/14725514-xtrachef-pay-vendor-bills-with-toast-bill-pay) |
+| [xtraCHEF: Vendor Statement Reconciliation](vendors/vendor-statement-reconciliation.md) | Upload a vendor's statement (its list of open invoices, credits and payments) and xtraCHEF matches each line to the invoices in your account. | [link](https://intercom.help/toast-central/en/articles/9309024-xtrachef-vendor-statement-reconciliation) |
 
 ## Purchase categories
 
@@ -77,9 +80,32 @@ Regenerate with `python3 tools/build_index.py`.
 
 | Note | Summary | Source |
 |---|---|---|
+| [xtraCHEF: Create Orders on Mobile](orders/create-orders-mobile.md) | The xtraCHEF mobile app can build and send vendor orders away from a desk. | [link](https://intercom.help/toast-central/en/articles/14727628-xtrachef-create-orders-on-mobile) |
 | [xtraCHEF: Create Orders](orders/create-orders.md) | The **Order** module lets you build purchase orders from items you've bought before, either from the full **Catalog** of past invoice items or from an **Order Guide**. | [link](https://intercom.help/toast-central/en/articles/14727527-xtrachef-create-orders) |
 | [xtraCHEF: Inbound Orders (Central Kitchen)](orders/inbound-orders-central-kitchen.md) | A **central kitchen** is a location that makes sauces, sides, or packaged goods for other locations. | [link](https://intercom.help/toast-central/en/articles/14727539-xtrachef-inbound-orders-central-kitchen) |
+| [xtraCHEF: Notifications](orders/notifications.md) | The **bell icon** in the web app lists recent **Invoice Exception** notifications, meaning invoices flagged Action needed and paused from reconciling. | [link](https://intercom.help/toast-central/en/articles/14727745-xtrachef-notifications) |
+| [xtraCHEF: Order Guides](orders/order-guides.md) | **Order Guides** are curated per-vendor lists of approved invoice items with typical quantities. | [link](https://intercom.help/toast-central/en/articles/14727712-xtrachef-order-guides) |
 | [xtraCHEF: Order History](orders/order-history.md) | **Order History** is the searchable log of purchase orders placed through xtraCHEF's Order module. | [link](https://intercom.help/toast-central/en/articles/14726174-xtrachef-order-history) |
+| [xtraCHEF: Outbound Orders](orders/outbound-orders.md) | The **Order** landing page has a **Recent Orders** log of placed and in-progress orders, plus an **Ordering by Vendor** pie chart. | [link](https://intercom.help/toast-central/en/articles/14727717-xtrachef-outbound-orders) |
+| [xtraCHEF: Get Started With Payment Terms](orders/payment-terms.md) | **Payment terms** (for example, Net 30 or due on receipt) define when vendor invoices are due. | [link](https://intercom.help/toast-central/en/articles/14728288-xtrachef-get-started-with-payment-terms) |
+
+## GL codes & journal entries
+
+| Note | Summary | Source |
+|---|---|---|
+| [xtraCHEF: Chart of Accounts](gl-and-journal-entries/chart-of-accounts.md) | The **chart of accounts (COA)** is the list of accounts, divided into assets, liabilities, revenue, equity, COGS, and expenses, with GL codes underneath each. | [link](https://intercom.help/toast-central/en/articles/14727682-xtrachef-chart-of-accounts) |
+| [xtraCHEF: General Ledger (GL) Codes](gl-and-journal-entries/gl-codes.md) | GL codes are the accounts in your chart of accounts (a code plus a description, for example 1001 Food Purchases). | [link](https://intercom.help/toast-central/en/articles/14725478-xtrachef-general-ledger-gl-codes) |
+| [xtraCHEF: Sync Sales Journal Entries to Intacct](gl-and-journal-entries/sync-sales-journal-entries-intacct.md) | For **Sage Intacct** users, xtraCHEF posts each day's Toast sales as a journal entry. | [link](https://intercom.help/toast-central/en/articles/14727596-xtrachef-sync-sales-journal-entries-to-intacct) |
+| [xtraCHEF: View and Edit Locations](gl-and-journal-entries/view-and-edit-locations.md) | **gear icon > Locations** lists every location on the xtraCHEF tenant with its name, creation date, account number, and the location's **email-in address**. | [link](https://intercom.help/toast-central/en/articles/14726191-xtrachef-view-and-edit-locations) |
+
+## COGS
+
+| Note | Summary | Source |
+|---|---|---|
+| [xtraCHEF: Add and Edit COGS Groups](cogs/add-and-edit-cogs-groups.md) | A **COGS group** is a reporting bucket that ties a Toast sales category to one or more purchase categories, for example Beer, Food, or NA Beverage. | [link](https://intercom.help/toast-central/en/articles/14728289-xtrachef-add-and-edit-cogs-groups) |
+| [xtraCHEF: COGS Mapping](cogs/cogs-mapping.md) | COGS in xtraCHEF is reported by **COGS Group** (for example, Food, Beer, NA Beverage, Supplies). | [link](https://intercom.help/toast-central/en/articles/14727476-xtrachef-cogs-mapping) |
+| [xtraCHEF: COGS Report](cogs/cogs-report.md) | The **COGS** report shows cost of goods (Beginning Inventory + Purchases − Ending Inventory) and COGS % (cost ÷ sales) by COGS group, with drill-down to category, product, and invoice item. | [link](https://intercom.help/toast-central/en/articles/14727521-xtrachef-cogs-report) |
+| [xtraCHEF: Production Cost of a Food Item](cogs/production-cost-of-a-food-item.md) | This is a short FAQ. | [link](https://intercom.help/toast-central/en/articles/14487599-xtrachef-production-cost-of-a-food-item) |
 
 ## Accounting, periods & integrations
 
@@ -109,11 +135,9 @@ Regenerate with `python3 tools/build_index.py`.
 | [xtraCHEF: Get Started With QuickBooks Desktop Integration](quickbooks/quickbooks-desktop-integration.md) | Setup guide for connecting xtraCHEF to QuickBooks Desktop through Intuit's **Web Connector** (PC) or IIF file imports (Mac / unsupported versions). | [link](https://intercom.help/toast-central/en/articles/14728138-xtrachef-get-started-with-quickbooks-desktop-integration) |
 | [xtraCHEF: Get Help With QuickBooks Extract Errors](quickbooks/quickbooks-extract-errors.md) | The troubleshooting guide for invoice (bill) extracts from xtraCHEF to QuickBooks that fail or warn. | [link](https://intercom.help/toast-central/en/articles/14727646-xtrachef-get-help-with-quickbooks-extract-errors) |
 | [xtraCHEF: Receipt Extract for QuickBooks Online](quickbooks/receipt-extract-qbo.md) | Receipt extract sends documents uploaded as **receipts** (already-paid purchases) to QuickBooks Online as **Expenses**, separate from invoices, which go as Bills. | [link](https://intercom.help/toast-central/en/articles/14727687-xtrachef-receipt-extract-for-quickbooks-online) |
-| [xtraCHEF: Reconcile Toast Payroll Data](quickbooks/reconcile-toast-payroll-data.md) | How to verify that payroll amounts captured in xtraCHEF's Sync Monitor match Toast Payroll's own reports. | [link](https://intercom.help/toast-central/en/articles/14725454-xtrachef-reconcile-toast-payroll-data) |
 | [Get Started With Sales Accounting Sync](quickbooks/sales-accounting-sync-toast-web.md) | Toast Web's built-in connector that posts daily sales journal entries straight to QuickBooks Online, without xtraCHEF. | [link](https://intercom.help/toast-central/en/articles/15197015-get-started-with-sales-accounting-sync) |
 | [xtraCHEF: Get Help With Sales Syncs to QuickBooks](quickbooks/sales-sync-errors.md) | How to read and resolve alerts on daily sales journal entries that xtraCHEF posts from Toast to QuickBooks, using the **Sync Monitor**. | [link](https://intercom.help/toast-central/en/articles/14728156-xtrachef-get-help-with-sales-syncs-to-quickbooks) |
 | [xtraCHEF: Switch QuickBooks Integrations](quickbooks/switch-quickbooks-integrations.md) | Explains how to change xtraCHEF's extract configuration between QuickBooks Desktop and QuickBooks Online. | [link](https://intercom.help/toast-central/en/articles/14487875-xtrachef-switch-quickbooks-integrations) |
-| [xtraCHEF: Sync Monitor](quickbooks/sync-monitor.md) | The Sync Monitor is xtraCHEF's calendar hub for data coming in from Toast (sales, payroll) and going out to QuickBooks as journal entries. | [link](https://intercom.help/toast-central/en/articles/14728186-xtrachef-sync-monitor) |
 
 ## Sales sync
 
