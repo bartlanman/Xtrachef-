@@ -2,7 +2,7 @@
 
 One note per official xtraCHEF help-center article, written in our own words.
 Regenerate with `python3 tools/build_index.py`.
-**110 notes.** Playbooks: [`../playbooks/`](../playbooks/).
+**112 notes.** Playbooks: [`../playbooks/`](../playbooks/).
 
 
 ## Getting started & onboarding
@@ -64,6 +64,7 @@ Regenerate with `python3 tools/build_index.py`.
 | Note | Summary | Source |
 |---|---|---|
 | [xtraCHEF: Set Up an EDI Integration With Vendors](vendors/edi-integration-with-vendors.md) | EDI (Electronic Data Interchange) lets a vendor send invoice data straight into xtraCHEF, with no photos, PDFs or uploads, and fewer keying errors. | [link](https://intercom.help/toast-central/en/articles/9306947-xtrachef-set-up-an-edi-integration-with-vendors) |
+| [xtraCHEF: Get Started With Vendors](vendors/get-started-with-vendors.md) | The **Vendors** page (the **Vendor Hub**) is where you manage every vendor xtraCHEF knows about, whether synced from QBO or read from uploaded documents. | [link](https://intercom.help/toast-central/en/articles/14727525-xtrachef-get-started-with-vendors) |
 | [xtraCHEF: Pay Vendor Bills With Toast Bill Pay](vendors/pay-vendor-bills-with-toast-bill-pay.md) | This is the how-to for the xtraCHEF Bill Pay module: the dashboard, bills, payment statuses and the bills report. | [link](https://intercom.help/toast-central/en/articles/14725514-xtrachef-pay-vendor-bills-with-toast-bill-pay) |
 
 ## Purchase categories
@@ -77,6 +78,7 @@ Regenerate with `python3 tools/build_index.py`.
 | Note | Summary | Source |
 |---|---|---|
 | [xtraCHEF: Create Orders](orders/create-orders.md) | The **Order** module lets you build purchase orders from items you've bought before, either from the full **Catalog** of past invoice items or from an **Order Guide**. | [link](https://intercom.help/toast-central/en/articles/14727527-xtrachef-create-orders) |
+| [xtraCHEF: Inbound Orders (Central Kitchen)](orders/inbound-orders-central-kitchen.md) | A **central kitchen** is a location that makes sauces, sides, or packaged goods for other locations. | [link](https://intercom.help/toast-central/en/articles/14727539-xtrachef-inbound-orders-central-kitchen) |
 | [xtraCHEF: Order History](orders/order-history.md) | **Order History** is the searchable log of purchase orders placed through xtraCHEF's Order module. | [link](https://intercom.help/toast-central/en/articles/14726174-xtrachef-order-history) |
 
 ## Accounting, periods & integrations
