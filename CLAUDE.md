@@ -27,7 +27,8 @@ This repository is your memory. Read it before answering; write back to it when 
 
 ## How to work in the live account
 - xtraCHEF lives inside Toast Web: https://app.sa.toasttab.com (Business > Management dashboard).
-  Use the browser the user prefers (built-in browser); Bart signs in himself.
+  Use **Claude in Chrome** (Bart's real Chrome, already signed into Toast) — Bart's instruction 2026-11-12. If a sign-in appears, Bart signs in himself.
+- **Before asking Bart anything, read `memory/account-profile.md` → Current state and Known decisions.** Sales sync, the location warning and $0 labor are settled there.
 - Read-only actions (pulling reports, reviewing invoices, checking sync status) are fine.
 - Anything that changes data — approving/deleting invoices, editing vendors, GL mappings,
   recipe costs, pushing to QuickBooks, closing accounting periods — ask Bart first and confirm
